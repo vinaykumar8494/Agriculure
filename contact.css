@@ -1,0 +1,72 @@
+h1{
+    text-align:start;
+    color: #2196F3;
+    padding: 50px;
+    
+}
+.fa-solid fa-phone{
+    padding: 40px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-buttons, .contact-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2), 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:active {
+    transform: translateY(5px);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+
+.contact {
+    background-color: #4CAF50; /* Green */
+}
+
+.email {
+    background-color: #ff9800; /* Orange */
+}
+
+.address {
+    background-color: #2196F3; /* Blue */
+}
